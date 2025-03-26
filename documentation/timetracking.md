@@ -1,1 +1,3 @@
-track time n that
+| Day  | Time | What I did |
+|--------|------|-----------------------------------------------|
+| 26.3.  |     | Made this document                      |
