@@ -24,6 +24,13 @@ class PaymentCard:
 
         if self.balance > 15000:
             self.balance = 15000
+
+    
+    def spend_money(self, amount):
+        if amount > 0 and self.balance >= amount:
+            self.balance -= amount  
+            return True
+        return False
             
     def balance_in_euros(self):
         return self.balance / 100
