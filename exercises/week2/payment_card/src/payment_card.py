@@ -24,6 +24,9 @@ class PaymentCard:
 
         if self.balance > 15000:
             self.balance = 15000
+            
+    def balance_in_euros(self):
+        return self.balance / 100
 
     def __str__(self):
         balance_in_euros = round(self.balance / 100, 2)
