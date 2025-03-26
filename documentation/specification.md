@@ -1,11 +1,12 @@
-You should use the reference project’s file as a guide. That is, your specification should contain the following sections:
-
-The purpose of your project, which is a short text description of what your project is
-Users, which describes what kinds of user roles your program’s users will have
-For example, a study app could have the following roles: Student, Teacher, Administrator, Parent
-If your app only has one type of users, then you can skip this section. This is common especially in video game projects.
-Planned features
-You can list these features as bullet points
-Describe the core functionality that you will have in greater detail
-Make a separate list for extension ideas that you can implement if you have extra time, after you have completed the main project
-You can also make a user interface mockup in the specification document. This is optional.
+Purpose:
+To build a program that plays the card game solitaire
+Planned features:
+-interface where you start
+-ability to play solitaire
+Core functionality:
+The core is clearly going to be the solitaire game itself. I guess the core functionality of that would be the ability to generate a new, solvable puzzle each time a player chooses to play. You can split that into even more core functionalities, like generating and shuffling the deck. Something also related to this will be the ability to recognize what moves are legal, as well as the ability to track the state of the game.
+Extension Ideas:
+-making it look nicer
+-maybe adding a button gives an explanation of how to play
+-adding difficulty choices
+-adding different versions of solitaire
