@@ -1,7 +1,8 @@
 # Software development, practical work
 
-**Project Description:** *I was thinking of doing something where you can play a game of cards like solitaire*
+**Project Description:** *The user will be able to play the card game Solitaire. To run it, you will need at least python version 3.9*
 
-[Exercises](exercises/)
-[Specification](documentation/specification.md)
-[Changelog](documentation/changelog.md)
+**Documentation:**
+- [Exercises](exercises/)
+- [Specification](documentation/specification.md)
+- [Changelog](documentation/changelog.md)
