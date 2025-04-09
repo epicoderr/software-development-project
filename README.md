@@ -4,3 +4,4 @@
 
 [Exercises](exercises/)
 [Specification](documentation/specification.md)
+[Changelog](documentation/changelog.md)
