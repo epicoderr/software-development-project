@@ -1,4 +1,4 @@
-# Software development, practical work
+# Software Development Project: Solitaire
 
 **Project Description:** *The user will be able to play the card game Solitaire. To run it, you will need at least python version 3.9*
 
