@@ -24,14 +24,12 @@ class SolitaireCLI(tk.Frame):
         #AI code end
 
     def initialize_game(self):
-        """Initialize the Solitaire game logic."""
         self.game.create_deck()
         self.game.construct_puzzle()
         self.game.create_stock()
         self.display_output("Welcome to Solitaire CLI!\nEnter a command below:\n1: Draw a card\n2: Place a card\n3: Show tableau\n4: Move To Foundation\n5: Show foundation\n6: Exit")
 
     def display_output(self, text):
-        """Display output in the text widget."""
         #AI code
         self.output_text.config(state="normal")
         self.output_text.insert("end", text + "\n")
@@ -40,7 +38,6 @@ class SolitaireCLI(tk.Frame):
         #AI code end
 
     def process_command(self, event):
-        """Process the user command from the entry widget."""
         command = self.input_entry.get().strip()
         self.input_entry.delete(0, "end")
 
